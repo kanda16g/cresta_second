@@ -1073,6 +1073,20 @@ body{
             line-height: 59px;
             cursor: pointer;
         }
+
+        .btn:hover {
+    
+            input {
+                color: #F7D43F;
+            }
+    
+            @media screen and (max-width: 1024px) {
+    
+                input {
+                    color: #171717;
+                }
+            }
+        }
     }
 
     @media screen and (max-width: 700px) {

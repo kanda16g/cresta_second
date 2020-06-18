@@ -992,6 +992,16 @@ body {
   cursor: pointer;
 }
 
+.contact .contactbox .btn:hover input {
+  color: #F7D43F;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact .contactbox .btn:hover input {
+    color: #171717;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .contact .key {
     height: 360px;
